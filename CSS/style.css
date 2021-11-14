@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-
+    overflow-x: hidden;
 }
 .image {
     display: flex;
@@ -16,7 +16,6 @@ body {
     box-shadow: 0px 2px 6px gray;
     height: auto;
     width: 100%;
-    
     position: fixed;
     z-index: 5;
     top: 0;
@@ -46,7 +45,7 @@ body {
 .active {
     color: #021F68;
     font-weight: bold;
-    border-bottom: 2px solid ;
+    border-bottom: 1px solid ;
 }
 
 
@@ -179,15 +178,22 @@ h5 {
 }
 .card {
     background: #40B3E0;
+    height: 9rem;
+}
+.cd {
+    background: #40B3E0;
+    padding: 1rem;
 }
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .button2 a {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-size: 1.5rem;
 }
@@ -394,11 +400,18 @@ iframe {
 /*-------- responsive--------- */
 @media(max-width:768px){
     /* index */
+    ul {
+        margin-right: 12rem;
+    }
     .logo h2{
         display: none;
     }
     .logo img {
         display: none;
+    }
+    .menu a {
+        font-size: 1rem;
+        line-height: 0.1;
     }
     .menu {
         width: 100%;
@@ -429,6 +442,10 @@ iframe {
     footer {
         width: 91.5%;
     }
+    .button2 {
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
     /* services */
     .card-body {
         flex-wrap: wrap;
@@ -456,10 +473,22 @@ iframe {
     .witd-card, .card4 {
         width: 100%;
     }
+    /* contact */
+    .container {
+        width: 95%;
+    }
+    .photo img {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+    form {
+        display: flex;
+        width: 80%;
+    }
 }
 
 @media(max-width: 428px) {
-   
     .navigation .logo{
         display: none;
     }
@@ -475,6 +504,8 @@ iframe {
     .navigation .menu ul{
         width: 100%;
         display: block;
+        line-height: 1;
+        top: 0;
    }
     .img h1 {
         margin-top: 230px;
@@ -506,8 +537,44 @@ iframe {
     .border-bottom {
         width: 20%;
     }
+    .btns {
+        width: 27%;
+    }
+    .python {
+        width: 23%;
+    }
+    .css {
+        width: 30%;
+    }
+    .phps {
+        width: 24%;
+    }
     /* hobby */
     .new-cards {
         width: 100%;
+    }
+    /* contact */
+    .container {
+        display: block;
+        width: 100%;
+    }
+    form {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+    .photo img {
+        width: 100%;
+    }
+    .head6 h5 {
+        margin-top: 10rem;
+        font-size: 2rem;
+    }
+    .maps {
+        margin: auto;
+        width: 90%;
+    }
+    ul {
+        margin-left: 7rem;
     }
 }
