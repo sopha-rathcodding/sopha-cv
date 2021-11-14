@@ -178,7 +178,6 @@ h5 {
 }
 .card {
     background: #40B3E0;
-    height: 9rem;
 }
 .cd {
     background: #40B3E0;
@@ -191,17 +190,17 @@ h5 {
     text-align: center;
 }
 .button2 a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     font-size: 1.5rem;
 }
 .button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #fff;
     padding: 1rem;
     width: 11rem;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 .button2:hover{
     background: orange;
