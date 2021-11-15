@@ -551,6 +551,9 @@ iframe {
     .phps {
         width: 24%;
     }
+    .mt-border {
+        margin-top: 16rem;
+    }
     /* hobby */
     .new-cards {
         width: 100%;
