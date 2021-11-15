@@ -554,6 +554,9 @@ iframe {
     .mt-border {
         margin-top: 16rem;
     }
+    .size-h6 h6 {
+        font-size: 2rem;
+    }
     /* hobby */
     .new-cards {
         width: 100%;
