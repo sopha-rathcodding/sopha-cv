@@ -9,7 +9,6 @@ body {
     justify-content: center;
 }
 .navigation {
-    
     display: flex;
     justify-content: space-between;
     background: #fff;
@@ -22,7 +21,6 @@ body {
 }
 .navigation .logo {
     margin-left: 76px;
-<<<<<<< HEAD
 }
 .menu {
     margin-right: 75px;
@@ -43,28 +41,6 @@ body {
     color: black;
     
 }
-=======
-}
-.menu {
-    margin-right: 75px;
-    display: flex;
-}
-.menu ul{
-    display: flex;
-    transition: 0.8s;
-}
-.nav-items {
-    list-style: none;
-    padding:10px;
-}
-.nav-link {
-    text-decoration: none;
-    font-size: 22px;
-    padding:10px ;
-    color: black;
-    
-}
->>>>>>> 1fd4617d51e8304f1f06dfc84901dc4c588d6758
 .active {
     color: #021F68;
     font-weight: bold;
@@ -200,15 +176,7 @@ h5 {
     text-align: center;
 }
 .card {
-<<<<<<< HEAD
     background: #40B3E0;
-    height: 9rem;
-}
-.cd {
-=======
->>>>>>> 1fd4617d51e8304f1f06dfc84901dc4c588d6758
-    background: #40B3E0;
-    padding: 1rem;
 }
 .cd {
     background: #40B3E0;
@@ -221,12 +189,6 @@ h5 {
     text-align: center;
 }
 .button2 a {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: center;
-    align-items: center;
-=======
->>>>>>> 1fd4617d51e8304f1f06dfc84901dc4c588d6758
     text-decoration: none;
     font-size: 1.5rem;
 }
@@ -237,14 +199,7 @@ h5 {
     border: 1px solid #fff;
     padding: 1rem;
     width: 11rem;
-<<<<<<< HEAD
-    margin-top: 2.5rem;
-=======
     margin-top: 1.5rem;
-}
-.button2:hover{
-    background: orange;
->>>>>>> 1fd4617d51e8304f1f06dfc84901dc4c588d6758
 }
 .button2:hover{
     background: orange;
@@ -408,7 +363,6 @@ textarea {
     height: 8rem;
 }
 .logo-cont {
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
     margin-top: 2rem;
@@ -431,30 +385,6 @@ iframe {
 .button4 {
     display: flex;
     justify-content: center;
-=======
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-.fa-user-circle-o {
-    font-size: 5rem;
-    color: orangered;
-}
-iframe {
-    width: 100%;
-    margin-top: 2rem;
-}
-.btn:hover{
-    background:orange;
-}
-.btn-send a {
-    text-decoration: none;
-    color: #fff;
-}
-.button4 {
-    display: flex;
-    justify-content: center;
->>>>>>> 1fd4617d51e8304f1f06dfc84901dc4c588d6758
     margin-top: 1rem;
 }
 .btn-send {
@@ -557,11 +487,15 @@ iframe {
 }
 
 @media(max-width: 428px) {
+    body {
+        overflow-x: hidden;
+    }
     .navigation .logo{
         display: none;
     }
     .bg-img {
         width: 100%;
+        height: 130vh;
     }
     .navigation .menu{
         width: 100%;
@@ -621,12 +555,9 @@ iframe {
     .new-cards {
         width: 100%;
     }
-<<<<<<< HEAD
     .contact h6 {
-        margin-top: 15rem;
+        margin-top: 13rem;
     }
-=======
->>>>>>> 1fd4617d51e8304f1f06dfc84901dc4c588d6758
     /* contact */
     .container {
         display: block;
