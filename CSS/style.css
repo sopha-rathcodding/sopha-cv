@@ -553,6 +553,9 @@ iframe {
     .new-cards {
         width: 100%;
     }
+    .contact h6 {
+        margin-top: 15rem;
+    }
     /* contact */
     .container {
         display: block;
