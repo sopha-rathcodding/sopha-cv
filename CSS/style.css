@@ -561,6 +561,9 @@ iframe {
     .contact h6 {
         margin-top: 13rem;
     }
+    .card4 {
+        height: 45vh;
+    }
     /* contact */
     .container {
         display: block;
